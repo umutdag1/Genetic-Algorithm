@@ -39,7 +39,7 @@ public class G1 {
 				System.out.print(X[i]+"X"+i+"+");
 			}
 			else {
-				System.out.print(X[i]+" = 0");
+				System.out.print("(-"+X[i]+") = 0");
 			}
 		}
 		chromosomesizeIn-=1;
@@ -63,7 +63,8 @@ public class G1 {
 
 		}
 		
-		System.out.println("\nResult : " + Arrays.toString(listch.get(result).array));
+		System.out.println("\nResult : " + "X1 = " + listch.get(result).array[0] + ", X2 = "
+		+ listch.get(result).array[1] + ", X3 = " + listch.get(result).array[2] + ", X4 = " + listch.get(result).array[3]);
 		
 	}
 	
